@@ -10,20 +10,13 @@
 </head>
 <body>
 
-    @include('components.navbar')
+    @include('components.navbar.navbar')
 
     <main>
         @yield('content')
     </main>
 
-    @include('components.footer')
+    @include('components.footer.footer')
 
 </body>
 </html>
-<style>
-    *{
-        text-decoration: none;
-        font-family: "sora";
-        margin: 0px;
-    }
-</style>

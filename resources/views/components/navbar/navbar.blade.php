@@ -32,6 +32,6 @@
             <option value="sa">ARB</option>
         </select>
         <a class="contact-number" href="{{ url('/blogs') }}">Call us  06 57 68 53 24</a>
-        <x-navbar-button href="{{ url('/trainings') }}">Explore Trainings</x-navbar-button>
+        <x-navbar.navbar-button href="{{ url('/trainings') }}">Explore Trainings</x-navbar.navbar-button>
     </div>
 </nav>
