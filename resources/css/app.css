@@ -7,3 +7,65 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+/* Mobile styles are default */
+    *{
+        text-decoration: none;
+        font-family: "sora";
+        margin: 0px;
+    }
+
+/* Tablet */
+@media (min-width: 768px) {}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+    /* navbar */
+    nav{
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        padding: 20px 50px 20px 50px;
+
+    }
+    .nav-left{
+        /* gap: 20px; */
+        display: flex;
+        align-items: center;
+    }
+    .nav-right{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        gap: 30px;
+    }
+    .nav-left a {
+        padding: 7px 14px;
+        border-radius: 10px; 
+        color: #727272;
+    }
+
+    .nav-left a:hover {
+        background-color: #F3F3F3;
+    }
+
+    .nav-left a.active {
+        background-color: #F3F3F3;
+        color: #0A0A0A;
+    }
+    .contact-number{
+        color: #1D4ED8;
+    }
+    .navbar-button{
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        background-color: #1D4ED8;
+        color: #FFFFFF;
+        font-family: 'sora';
+    }
+    /* end navbar */
+}
+
+/* Large desktop */
+@media (min-width: 1440px) {}
