@@ -10,10 +10,13 @@
             Home
         </a>
 
-        <a href="{{ url('/trainings') }}"
-        class="{{ request()->is('trainings') ? 'active' : '' }}">
-            Trainings<i class="nav-arrow bi bi-caret-down-fill"></i>
-        </a>
+        <div class="nav-trainings-wrapper">
+            <a href="{{ url('/trainings') }}"
+            class="{{ request()->is('trainings') ? 'active' : '' }}">
+                Trainings<i class="nav-arrow bi bi-caret-down-fill"></i>
+            </a>
+            <x-navbar.nav-trainings-hover />
+        </div>
 
         <a href="{{ url('/about') }}"
         class="{{ request()->is('about') ? 'active' : '' }}">

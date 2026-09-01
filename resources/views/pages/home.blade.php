@@ -3,7 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-
     <div class="home">
         <div class="home-text">
             <h1>Master In-Demand Digital & Technical Skills</h1>
@@ -14,10 +13,6 @@
             <span><i class="bi bi-check-lg" style="color: green;"></i></i>International Certified Programs</span>
         </div>
     </div>
-
-    <x-technologies.technologies></x-technologies.technologies>
-    
-    <style>
-        
-    </style>
+    <x-technologies.technologies />
+    <x-different.makes-us-different />
 @endsection
