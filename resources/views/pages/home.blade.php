@@ -15,4 +15,6 @@
     </div>
     <x-technologies.technologies />
     <x-different.makes-us-different />
+    <x-popular.popular />
+    <x-students.students />
 @endsection
