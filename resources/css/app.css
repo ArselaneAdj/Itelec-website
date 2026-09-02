@@ -549,6 +549,113 @@
         border-radius: 20px;
     }
         /* end student testimonials */
+        /* start graduates */
+            .started-button{
+        padding: 10px 20px 10px 20px;
+        background-color: white;
+        color: #1D4ED8;
+        max-width: 200px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .start-card{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .start-card h2{
+        font-size: 31.5px;
+        font-weight: 600;
+    }
+    .start-card p{
+        font-size: 13.5px;
+        font-weight: 400;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+    .start{
+        padding: 50px;
+        background-color: #1D4ED8;
+        border-radius: 30px;
+
+    }
+    .graduates{
+        padding: 50px;
+    }
+
+    .graduates-text{
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .graduates-text h2{
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    .graduates-text p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .graduates-logos{
+        padding-top: 60px;
+    }
+    .graduates-logos{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 100px;
+
+    }
+        /* end graduates */
+        /* whatsapp */
+         .chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 9999;
+        text-decoration: none!important;
+
+}
+
+.chat-button i {
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.chat-text {
+    margin-right: 10px;
+    padding: 8px 14px;
+   background: linear-gradient(90deg, #20B038, #60D66A);
+    color: white;
+    border-radius: 20px;
+    white-space: nowrap;
+    content-visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+}
+
+.chat-button:hover .chat-text {
+    text-decoration: none;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    content-visibility: visible;
+}
+        /* whatsapp */
     /* end home page */
 }
 

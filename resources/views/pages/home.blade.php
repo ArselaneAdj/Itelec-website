@@ -13,8 +13,9 @@
             <span><i class="bi bi-check-lg" style="color: green;"></i></i>International Certified Programs</span>
         </div>
     </div>
-    <x-technologies.technologies />
-    <x-different.makes-us-different />
-    <x-popular.popular />
-    <x-students.students />
+    @include('components.technologies.technologies')
+    @include('components.different.makes-us-different')
+    @include('components.popular.popular')
+    @include('components.students.students')
+    @include('components.graduates.graduates')
 @endsection

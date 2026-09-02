@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'About')
+@section('title', 'Trainings')
 
 @section('content')
 
-    <h1>trainings</h1>
-    <p>This is the About page.</p>
+    @include("components.sidebar.sidebar")
 
 @endsection

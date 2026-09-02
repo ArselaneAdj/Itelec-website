@@ -17,6 +17,10 @@
     </main>
 
     @include('components.footer.footer')
+    <a href="#" class="chat-button" target="_blank">
+        <span class="chat-text">Contact us on WhatsApp</span>
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
 </body>
 </html>
