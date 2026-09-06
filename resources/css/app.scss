@@ -33,7 +33,9 @@ $font-main: 'sora';
 }
 
 /* Desktop by default */
-
+*{
+    font-family: $font-main;
+}
 // Navbar
 nav {
     background-color: $color-white;
