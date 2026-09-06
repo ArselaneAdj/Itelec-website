@@ -1,7 +1,7 @@
 <section class="popular">
     <div class="popular-start">
         <h2>Our most popular trainings</h2>
-        <x-popular.popular-button href="{{ url('/trainings') }}">View all trainings</x-popular.popular-button>
+        <x-popular.popular-button class="button-mobile-hide" href="{{ url('/trainings') }}">View all trainings</x-popular.popular-button>
     </div>
     <div class="popular-info">
         <div class="popular-info-item">

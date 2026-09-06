@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{-- SEO --}}
     <meta name="description" content="Etilec designs, builds, and supports digital products - MVPs, SaaS, and custom software - with fast, reliable development and support.">    
     <meta name="copyright" content="Etilec">

@@ -53,7 +53,7 @@
         padding: 50px;
   height: 100%; 
   width: 350px;
-  position: fixed; 
+  position: absolute; 
   z-index: 1;
   left: 0;
   overflow-x: hidden; 

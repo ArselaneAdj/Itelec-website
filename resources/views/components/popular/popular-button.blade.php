@@ -1,3 +1,3 @@
-<a href="{{ $href }}" class="navbar-button">
+<a href="{{ $href }}" class="button-mobile-hide navbar-button">
     {{ $slot }}
 </a>
