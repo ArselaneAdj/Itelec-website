@@ -2,19 +2,34 @@
     <input type="text" placeholder="Search for a training">
     <div class="trainings-items">
         <h1>Categories</h1>
-        <span>All Trainings</span>
-        <span>Cisco Systems</span>
-        <span>CompTIA</span>
-        <span>Web development</span>
-        <span>Microsoft Azure</span>
-        <span>Cybersecurity</span>
-        <span>Web Development</span>
-        <span>Artificial Intelligence</span>
-        <span>Telecommunications</span>
-        <span>Security Systems</span>
+        <span><img src="{{ asset('images/all-trainings.png') }}" alt=""> All trainings <p>#</p></span>
+        <span><img src="{{ asset('images/cisco-trainings.png') }}" alt=""> Cisco Systems <p>#</p></span>
+        <span><img src="{{ asset('images/comptia-trainings.png') }}" alt=""> CompTIA <p>#</p></span>
+        <span><img src="{{ asset('images/microsoft-trainings.png') }}" alt=""> Microsoft Azure <p>#</p></span>
+        <span><img src="{{ asset('images/cybersecurity-trainings.png') }}" alt=""></i> Cybersecurity <p>#</p></span>
+        <span><img src="{{ asset('images/web-development-different.png') }}" alt=""></i> Web Development <p>#</p></span>
+        <span><img src="{{ asset('images/ai-trainings.png') }}" alt=""> Artificial Intelligence <p>#</p></span>
+        <span><img src="{{ asset('images/5G-trainings.png') }}" alt=""> Telecommunications <p>#</p></span>
+        <span><img src="{{ asset('images/cctv-trainings.png') }}" alt=""> Security Systems <p>#</p></span>
     </div><br>
     <span class="count"># trainings found</span>
     <div class="popular-info trainings-popular">
+        <div class="popular-info-item">
+            <img class="popular-item" src="{{ asset('images/popular-image.png') }}" alt="">
+            <span class="popular-sticky-item">cisco</span>
+            <h3>Getting Started with shadcn/ui: A Complete Guide</h3>
+            <p>Whether you want to learn fundamental skills, boost your career with an international certification, or change your career.</p>
+            <span class="duration"><i class="bi bi-clock"></i> Duration: 7 days</span><br>
+            <a href="{{ url('/') }}">Learn more <i class="bi bi-chevron-right"></i></a>
+        </div>
+        <div class="popular-info-item">
+            <img class="popular-item" src="{{ asset('images/popular-image.png') }}" alt="">
+            <span class="popular-sticky-item">cisco</span>
+            <h3>Getting Started with shadcn/ui: A Complete Guide</h3>
+            <p>Whether you want to learn fundamental skills, boost your career with an international certification, or change your career.</p>
+            <span class="duration"><i class="bi bi-clock"></i> Duration: 7 days</span><br>
+            <a href="{{ url('/') }}">Learn more <i class="bi bi-chevron-right"></i></a>
+        </div>
         <div class="popular-info-item">
             <img class="popular-item" src="{{ asset('images/popular-image.png') }}" alt="">
             <span class="popular-sticky-item">cisco</span>
@@ -61,16 +76,29 @@
 
 .trainings-items {
         display: flex;
-        gap: 12px 20px; /* row-gap column-gap */
+        gap: 12px 20px; 
         font-size: 13.5px;
         margin-top: 20px;
-        overflow-x: auto;    /* scrolls down if there are more tags than fit */
+        overflow-x: auto;   
+        img{
+            width: 30px;
+            margin-right:5px;
+        }
+        p{
+            margin-inline-start: auto;
+        }
     }
 
     .trainings-items > span {
-        flex: 0 0 auto;
-        white-space: nowrap;
-    }
+    flex: 0 0 auto;
+    white-space: nowrap;
+    display: flex;        
+    align-items: center;  
+    padding: 7px 14px;
+    &:hover{
+        background-color: #F5F5F5;
+    }             
+}
 
     @media (max-width:770px){
         .trainings-popular{
@@ -93,6 +121,13 @@
         }
         .trainings-popular{
             margin-left: 25%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;  /* packs items to the left, no space distributed between them */
+            align-content: flex-start;
+            div{
+                 flex: 0 0 calc(33.333% - 20px);
+            }
 
         }
         .trainings {

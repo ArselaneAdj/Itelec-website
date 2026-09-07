@@ -32,6 +32,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
 </head>
 <body>
 
@@ -46,6 +48,8 @@
         <span class="chat-text">Contact us on WhatsApp</span>
         <i class="bi bi-whatsapp"></i>
     </a>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
 </body>
 </html>
