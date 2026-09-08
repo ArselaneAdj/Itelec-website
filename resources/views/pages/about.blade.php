@@ -50,23 +50,75 @@
             <p>Join hundreds of students and professionals who have transformed their careers and are now working with leading companies across Algeria and beyond.</p>
         </div>
         <div class="diagram">
-            <div class="history">
-                <div>
-                    <p>2020</p>
-                    <img src="{{ asset('images/cisco.png') }}" alt="">
-                    <p>ITELEC is a premier technical training center founded in 2022 by industry professionals with extensive field experience. We specialize in delivering high-quality, practical training in cutting-  edge digital and technical domains including Cybersecurity, Networking, Cloud Computing, Web Development, Artificial Intelligence, and Audiovisual Technologies.</p>
-                </div>
-                <span class="try"></span>
+            <div class="sirius">
+                <img src="{{ asset('images/sirius.png') }}" alt="">
+                <p>ITELEC is a premier technical training center founded in 2022 by industry professionals with extensive field experience. We specialize in delivering high-quality, practical training in cutting-  edge digital and technical domains including Cybersecurity, Networking, Cloud Computing, Web Development, Artificial Intelligence, and Audiovisual Technologies.</p>
             </div>
-            <div class="history r">
-                <div>
-                    <p>2020</p>
-                    <img src="{{ asset('images/cisco.png') }}" alt="">
-                    <p>ITELEC is a premier technical training center founded in 2022 by industry professionals with extensive field experience. We specialize in delivering high-quality, practical training in cutting-  edge digital and technical domains including Cybersecurity, Networking, Cloud Computing, Web Development, Artificial Intelligence, and Audiovisual Technologies.</p>
-                </div>
+            <div class="badni">
+                <img src="{{ asset('images/badni.png') }}" alt="">
+                <p>ITELEC is a premier technical training center founded in 2022 by industry professionals with extensive field experience. We specialize in delivering high-quality, practical training in cutting-  edge digital and technical domains including Cybersecurity, Networking, Cloud Computing, Web Development, Artificial Intelligence, and Audiovisual Technologies.</p>
+            </div>
+            <div class="itelec">
+                <img src="{{ asset('images/ITELEC.png') }}" alt="">
+                <p>ITELEC is a premier technical training center founded in 2022 by industry professionals with extensive field experience. We specialize in delivering high-quality, practical training in cutting-  edge digital and technical domains including Cybersecurity, Networking, Cloud Computing, Web Development, Artificial Intelligence, and Audiovisual Technologies.</p>
             </div>
         </div>
-
+        <style>
+            .diagram{
+                min-height: 1000px;
+                display: flex;
+                flex-direction: column;
+                background-image: url('/images/Desktop.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+                .sirius{
+                    display: flex;
+                    flex-direction: column;
+                    gap:20px;
+                    img{
+                        width: 221px;
+                        height: auto;
+                        padding: 0;
+                    }
+                    p{
+                        max-width: 500px;
+                        text-align: left;
+                    }
+                }
+                .badni {
+                    margin-left: 850px!important;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    align-self: flex-end;   /* pushes this item to the right edge of the column */
+                    img {
+                        width: 221px;
+                        height: auto;
+                        padding: 0;
+                    }
+                    p {
+                        max-width: 500px;
+                    }
+                }
+                .itelec {
+                    margin-top: 500px; 
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    align-items: center;   /* centers all children (img + p) horizontally */
+                    text-align: center;     /* centers the p's text too, since text-align isn't a flex property */
+                    img {
+                        width: 221px;
+                        height: auto;
+                        padding: 0;
+                    }
+                    p {
+                        max-width: 500px;
+                    }
+                }
+            }
+        </style>
 
     </section>
     <section class="instructors-section">
