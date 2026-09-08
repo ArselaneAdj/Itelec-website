@@ -43,26 +43,6 @@
                 <p>Certification success rate</p>
             </div>
         </div>
-        <style>
-            .stats{
-                display: flex;
-                justify-content: space-around;
-                flex-wrap: wrap;
-                text-align: center;
-                > * {
-                    padding: 50px;
-                }
-                h3{
-                    font-size:30px;
-                    font-weight: 600;
-                }
-                p{
-                    font-size: 14px;
-                    font-weight: 400;
-                    color: #737373;
-                }
-            }
-        </style>
     </section>
     <section class="created">
         <div class="created-start">
@@ -86,42 +66,8 @@
                 </div>
             </div>
         </div>
-        <style>
-            .diagram{
-                display: flex;
 
-                .try {
-                    width: 0;
-                    height: 1000px;
-                    border-left: 2px dashed black;
-                }
-                .history{
-                    display: flex;
-                }
-                .r{
-                    margin-top: 500px ;
-                }
-            }
-        </style>
-        <style>
-            .created{
-                background-color: #F8F8F8;
-                padding: 50px;
-            }
-            .created-start{
-                text-align: center;
-                h2{
-                    font-size:30px;
-                    font-weight:600;
-                }
-                p{
-                    font-size:14px;
-                    font-weight:400;
-                    max-width: 770px;
-                    margin: 0 auto;
-                }
-            }
-        </style>
+
     </section>
     <section class="instructors-section">
         <div class="instructors-start">
@@ -130,55 +76,55 @@
         </div>
         <div class="instructors">
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
             </div>
             <div class="instructor">
-                <img src=" {{asset('images/sonatrach.png')}} " alt="">
+                <img src=" {{asset('images/user.png')}} " alt="">
                 <h3>david david</h3>
                 <p>developer</p>
                 <i class="bi bi-linkedin"></i>
@@ -214,10 +160,13 @@
                 </div>
             </div>
             <div>
-                <p>Follow us</p>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
+                <p class="follow-us">Follow us</p>
+                <div class="contact-logos">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+
             </div>
         </div>
         <div class="form-section">
@@ -239,186 +188,4 @@
             </form>
         </div>
     </section>
-    <style>
-        .form-section{
-            background-image: url('/images/contact.png');
-            padding: 5px;
-            border-radius: 10px;
-        }
-        form{
-            border-radius: 10px;
-            width: 500px;
-            padding: 10px;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            h2{
-                font-size:18px;
-                font-weight:500;
-            }
-            label{
-                font-size: small;
-            }
-            input{
-                padding: 20px;
-                border: 1px solid #FFFFFF;
-            }
-            button{
-                background-color: #1D4ED8;
-                color: white;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                border-radius: 10px;
-            }
-        }
-        .contact-us{
-            display: flex;
-            justify-content: space-around;
-            .contact-left{
-                display: flex;
-                flex-direction: column;
-               
-                h2{
-                    font-size:30px;
-                    font-weight: 600;
-                }
-                .contact-left-info{
-                    display: flex;
-                    justify-content: space-around;
-                    padding: 20px;
-                    gap: 20px;
-                    .contact-left-info-right{
-                        display: flex;
-                        flex-direction:column;
-                        width:500px;
-                        p{
-                            font-weight: 400;
-                        }
-                    }
-                }
-
-            }
-        }
-    </style>
-    <style>
-            .instructors-end{
-                padding: 100px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 30px;
-                span{
-                    font-weight:600;
-                    color:black;
-                }
-                p{
-                    text-align:center;
-                    font-size:22px;
-                    font-weight:400;
-                    max-width:80%;
-                    color:#727272;
-
-                }
-
-            }
-            .instructors{
-                display: flex;
-                justify-content: space-around;
-                overflow-x: auto;
-                gap: 20px;
-                
-                .instructor{
-                    min-width: 300px;
-                    display: flex;
-                    flex-direction:column;
-                    gap:10px;
-                    padding: 10px;
-                    border: 1px solid #DFDFDF;
-                    border-radius: 20px;
-                    h3{
-                        font-size: medium;
-                        font-weight:500;
-                    }
-                    p{
-                        color: #737373;
-                    }
-                }
-            }
-            .instructors-start{
-                display: flex;
-                justify-content: space-between;
-                padding: 50px;
-                > :nth-child(2){
-                    background-color: white;
-                    color: black;
-                    border: 1px solid black;
-                }
-                h2{
-                    font-size:30px;
-                    font-weight:600;
-                }
-            }
-        </style>
-    <style>
-
-        .about-content-text{
-            padding: 50px;
-            display: flex;
-            gap:50px;
-            .about-content-text-left{
-                flex: 0 0 30%;
-                display: flex;
-                gap:50px;
-                flex-direction: column;
-                h2{
-                    text-align: left;
-                    font-size: 30px;
-                    font-weight: 600;
-                }
-                p{
-                    font-size:16px;
-                    font-weight: 400;
-                }
-            }
-            .about-content-text-right{
-                display: flex;
-                flex-direction: column;
-                gap: 30px;
-            }
-        }
-    </style>
-    <style>
-        .about{
-            background-image: linear-gradient(to bottom, rgb(0, 0, 0,0), rgba(255, 255, 255, 255)), url('/images/about-bg.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 500px; 
-            display: flex;
-            justify-content: center; /* Horizontal */
-            align-items: center; /* Vertical */
-            text-align: center;
-            h1{
-                font-size:39px;
-                max-width:770px;
-            }
-            
-        }
-        .about-hero-buttons{
-                display: flex;
-                justify-content: center; /* Horizontal */
-                align-items: center; /* Vertical */
-                text-align: center;
-                gap: 20px;
-                padding-top: 50px;
-                > * {width: 35%;}
-                > :nth-child(2){
-                    background-color: white;
-                    color: black;
-                }
-                
-                    
-        }
-    </style>
 @endsection
