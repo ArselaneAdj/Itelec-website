@@ -1,6 +1,6 @@
 <div class="trainings-hover">
     <div class="trainings-hover-left">
-        <a href="{{ url('/trainings/cisco') }}" class="trainings-hover-item">
+        <a href="{{ url('/training') }}" class="trainings-hover-item">
             <img src="{{ asset('images/cisco.png') }}" alt="Cisco">
             <p>Cisco Systems</p>
             <i class="bi bi-chevron-right"></i>

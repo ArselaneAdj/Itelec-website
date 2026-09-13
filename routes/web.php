@@ -6,3 +6,4 @@ Route::view('/', 'pages.home');
 Route::view('/trainings', 'pages.trainings');
 Route::view('/about', 'pages.about');
 Route::view('/blogs', 'pages.blogs');
+Route::view('/training', 'pages.training');
