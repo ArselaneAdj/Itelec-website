@@ -7,3 +7,17 @@ document.querySelectorAll('.filter-blogs a').forEach(link => {
 
     });
 });
+
+const details = document.querySelectorAll('details');
+
+details.forEach((detail) => {
+    detail.addEventListener('toggle', () => {
+        if (detail.open) {
+            details.forEach((otherDetail) => {
+                if (otherDetail !== detail) {
+                    otherDetail.removeAttribute('open');
+                }
+            });
+        }
+    });
+});
